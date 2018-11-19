@@ -1,0 +1,51 @@
+    
+      
+      body{
+		font-family: 'Open Sans', sans-serif;
+	}
+	
+	.navbar-header.col {
+		padding: 0 !important;
+	}	
+	.navbar {
+		
+		padding-left: 16px;
+		padding-right: 16px;
+		
+		border-radius: 0;
+	}
+	
+	
+	.navbar ul.nav li a {
+		color: white;
+                font-size: 13pt;
+	}
+	
+	
+	.navbar .search-form {
+		display: inline-block;
+	}
+	.navbar .search-form .btn {
+		margin-left: 4px;
+	}
+	.navbar .search-form .form-control {
+		border-radius: 2px;
+	}
+	.navbar .login-form .input-group {
+		margin-right: 4px;
+		float: left;
+	}
+	.navbar .login-form .form-control {
+		max-width: 158px;
+		border-radius: 0 2px 2px 0;
+	}    	
+	.navbar .navbar-right .dropdown-toggle::after {
+		display: none;
+	}
+	.navbar .dropdown-menu {
+		border-radius: 1px;
+		background: transparent;
+		box-shadow: 0 2px 8px rgba(0,0,0,.05);
+	}
+	
+	
